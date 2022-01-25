@@ -3,6 +3,7 @@ REM
 REM Prerequisites:
 REM  S3 bucket must exist
 REM  IAM identity must exist
+REM  IAM identity needs to have permission to modify S3 bucket using IAM policy. Use a dedicated IAM user with least privilege.
 REM  aws cli must be installed
 REM  configure AWS to use IAM identity. Use 'aws configure --profile s3sync'
 REM
